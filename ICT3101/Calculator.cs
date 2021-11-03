@@ -285,7 +285,7 @@ namespace ICT3101
             //Dependency------------------------------
             FileReader getTheMagic = new FileReader();
             //----------------------------------------
-            string[] magicStrings = fileReader.Read("C:\\Users\\WenLong\\source\\repos\\ICT3101\\ICT3101\\MagicNumbers.txt");
+            string[] magicStrings = fileReader.Read("MagicNumbers.txt");
             if ((choice >= 0) && (choice < magicStrings.Length))
             {
                 result = Convert.ToDouble(magicStrings[choice]);

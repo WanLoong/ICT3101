@@ -21,4 +21,34 @@
     <ProjectReference Include="..\ICT3101\ICT3101.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="AdditionalCalculatorTest.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="CalculatorTests.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Steps_Definitions\UsingCalculatorAdditionsSteps.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Steps_Definitions\UsingCalculatorAvailabilitySteps.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Steps_Definitions\UsingCalculatorBasicReliabilitySteps.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Steps_Definitions\UsingCalculatorDefectDensitySteps.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Steps_Definitions\UsingCalculatorDivisionsSteps.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Steps_Definitions\UsingCalculatorFactorialSteps.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Steps_Definitions\UsingCalculatorMusafeatureSteps.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+
 </Project>
