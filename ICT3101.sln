@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICT3101", "ICT3101\ICT3101.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICT3101_Calculator.UnitTests", "ICT3101_Calculator.UnitTests\ICT3101_Calculator.UnitTests.csproj", "{66E9B02A-979A-47DC-A6F9-FF363CE17846}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BB1F5D30-309B-4FE3-BB8A-72F32D490FE9}"
+	ProjectSection(SolutionItems) = preProject
+		.travis.yml = .travis.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
